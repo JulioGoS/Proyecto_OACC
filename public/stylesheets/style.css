@@ -1,8 +1,38 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Kanit', sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+.nav-link .dropdown-toggle{
+  color: white !important;
+}
+
+.navbar.opacidad{
+  background-color: rgba(0, 0, 0, .85);
+}
+
+a {
+  color: #00B7FF;
+}
+
+.navbar-nav > li > .dropdown-toggle {
+  color:white;
+  font-size: 20px;
+  font-weight: 500;
+}
+     /* Barra*/
+::-webkit-scrollbar {
+	width: 7px;
+  background: #DCD8D8;
+}
+::-webkit-scrollbar-track{
+  border: 7px solid: grey;
+}
+::-webkit-scrollbar-thumb {
+	background:#3C3C3C;
+	border-radius: 10px;
 }

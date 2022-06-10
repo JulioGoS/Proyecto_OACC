@@ -1,0 +1,73 @@
+body{
+  background: url("../images/Fondo-I.jpg")
+}
+
+h1{
+  margin-top: 2%;
+  color:black;
+  margin-left: 25px;
+  margin-right: 25px;
+  align: center;
+  text-align:center;
+  background: none;
+  font-weight: bold;
+}
+p{
+
+    margin-top: 2%;
+    color:white;
+    margin-left: 25px;
+    margin-right: 25px;
+    align: center;
+    text-align:justify;
+    font-size: 20px;
+    background-color:#1687A7;
+    padding: 5%;
+    border-radius: 10px;
+    font-weight: bolder;
+
+}
+
+.grid-layout{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  grid-row-gap: 18px;
+  grid-column-gap: 18px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.box-img{
+  grid-column: 2/4;
+  grid-row: 2/4;
+  background: none;
+}
+
+.box-text{
+  padding-top:0;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  border-radius: 10px;
+  color: Black;
+  padding-bottom: 5%;
+}
+.box-header{
+  padding-top: 10%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  padding-bottom: 5%;
+}
+.box-marcas{
+  grid-column: 1/2;
+  grid-row: 3/4;
+  background-color: none;
+  align-items: center;
+  margin-left: 5%;
+}
+.box-marcas img{
+  padding-left: 5px;
+  align-items: center;
+}
