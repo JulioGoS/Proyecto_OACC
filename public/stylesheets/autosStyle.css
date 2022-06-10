@@ -1,0 +1,18 @@
+body{
+  font-family: 'Kanit', sans-serif;
+}
+h4{
+  text-align: center;
+
+}
+
+.card-body{
+
+  border-radius: 10px;
+}
+
+.col-md-3{
+  padding-top: 2%;
+  border-radius: 10px;
+
+}

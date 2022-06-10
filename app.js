@@ -15,7 +15,6 @@ useNewUrlParser: true,
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var catalogoRouter = require('./routes/catalogo');
 var nosotrosRouter = require('./routes/nosotros');
 var sucursales = require('./routes/sucursales');
 var autosRouter = require('./routes/autos');
@@ -41,7 +40,6 @@ app.use(methodOverride('_method'));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/catalogo', catalogoRouter);
 app.use('/nosotros', nosotrosRouter);
 app.use('/sucursales', sucursales);
 app.use('/autos', autosRouter);

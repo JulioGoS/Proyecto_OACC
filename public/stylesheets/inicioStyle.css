@@ -53,6 +53,7 @@ p{
   border-radius: 10px;
   color: Black;
   padding-bottom: 5%;
+  margin-right: 5%;
 }
 .box-header{
   padding-top: 10%;
@@ -65,7 +66,7 @@ p{
   grid-row: 3/4;
   background-color: none;
   align-items: center;
-  margin-left: 5%;
+  margin-left: 7%;
 }
 .box-marcas img{
   padding-left: 5px;
