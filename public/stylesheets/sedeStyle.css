@@ -1,0 +1,31 @@
+body{
+  background: url("../images/Fondo-I.jpg");
+
+}
+header{
+  margin-top: 5%;
+  text-align: center;
+}
+h1{
+  font-weight: bold;
+  font-size: 50px;
+}
+.grid-layout{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 18px;
+  grid-column-gap: 18px;
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  border-radius: 5px;
+}
+
+.box-info{
+  background: #1687A7;
+  text-align: justify;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
