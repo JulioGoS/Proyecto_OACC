@@ -1,0 +1,25 @@
+
+<div class="col-md-4 mx-auto">
+
+<div class="card">
+    <div class="card-header">
+        <h3>Editar auto</h3>
+    </div>
+    <div class="card-body">
+         <form action="/autos/nota-editada/{{aut._id}}" method="POST">
+     
+        <div class="form-group"> <input type="text" name="marca" class="form-control" placeholder="Ingrese Marca" value="{{aut.marca}}" autofocus></div>
+       <div class="form-group">  <input type="text" name="modelo" class="form-control" placeholder="Ingrese Modelo" value="{{aut.modelo}}" autofocus></div>
+         <div class="form-group"><input type="text" name="transmision" class="form-control" placeholder="Ingrese Transmision" value="{{aut.transmision}}" autofocus></div>
+         <div class="form-group"><input type="text" name="color" class="form-control" placeholder="Ingrese Color" value="{{aut.color}}" autofocus></div>  
+           <div class="form group"><input type="text" name="precio" class="form-control" placeholder="Ingrese precio"  value="{{aut.precio}}" autofocus></div>
+        <div class="form-group">
+            <button class="btn btn-primary btn-block" type="submit">
+                Editar Auto
+            </button>
+        </div>
+       </form>
+    </div>
+    </div>
+
+</div>

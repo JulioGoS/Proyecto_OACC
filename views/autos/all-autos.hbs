@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+<div class="row">
+
+    {{#each autos}}
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">
+                    {{marca}}
+                    <form action="/autos/editar/{{_id}}">
+                    <button class="btn btn-primary btn-block btn-sm" type="submit">Editar</button></form>
+                    <form action="/autos/eliminar/{{_id}}?_method=DELETE" method="POST">
+                    <input type="hidden" name="_method" value="DELETE">
+                    <button class="btn btn-danger btn-block btn-sm" type="submit">Eliminar</button></form>
+
+                
+                </h4>
+                <p>{{modelo}}</p>
+                <p>{{transmision}}</p>
+                <p>{{color}}</p>
+                <p>{{precio}}</p>
+            </div>
+        </div>
+    </div>
+{{else}}
+<card class="mx-auto">
+    <div class="card-bidy">
+        <p class="lead">NO hay registros</p>
+        <a href="/autos/add" class="btn btn-success btn-block">Crear Registro</a>
+    </div>
+</card>
+
+    {{/each}}
+</div>
+
+
+
+    
+</body>
+</html>
