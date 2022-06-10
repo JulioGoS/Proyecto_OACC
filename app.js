@@ -15,9 +15,9 @@ var app = express();
 
 var port = 3000;
 
-app.listen(port
-
-)
+app.listen(port,()=>{
+  console.log('La aplicaccion esta en linea');
+})
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
