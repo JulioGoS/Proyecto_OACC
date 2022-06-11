@@ -9,6 +9,8 @@ header{
 h1{
   font-weight: bold;
   font-size: 50px;
+  text-align: center;
+  margin-top: 2%;
 }
 .grid-layout{
   display: grid;
@@ -23,9 +25,9 @@ h1{
 }
 
 .box-info{
-  background: #1687A7;
+  background: #293462;
   text-align: justify;
-  padding: 10px;
+  padding: 15px;
   color: white;
   border-radius: 10px;
 }
