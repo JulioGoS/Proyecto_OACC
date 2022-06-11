@@ -4,7 +4,7 @@ html{
 body{
     margin: 0;
     background-color: lightgray;
-    font-size: large    ;
+    font-size: large ;
 }
 
 header{
@@ -15,10 +15,11 @@ header{
 
 }
 
-header h1{
-    font-size: 4rem;
+h1{
+    font-size: ;
     text-align: center;
-
+    font-weight: bold;
+    margin-top:5px;
 }
 
 
@@ -32,9 +33,9 @@ header h1{
   height: 100%;
   margin: 0 auto;
   border-radius: 10px;
-  background:lightgray;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  background:#293462;
+  margin-top:2%;
+  margin-bottom:2%;
   padding: 4%;
 }
 
@@ -45,11 +46,18 @@ header h1{
   padding-top: 15px;
   text-align: justify;
   margin-right: 10%;
+  color: white;
+}
+.t1 h2{
+  color:white;
+  font-weight: bold;
+  text-align: center;
+  margin-right:10%;
 }
 
 
 footer{
-    background-color: lightblue;
+    background:#293462;
     padding: 3rem;
     color: white;
     border-radius: 10px;
@@ -68,7 +76,7 @@ footer p{
 }
 
 footer a{
-    color: black;
+    color: white;
     text-decoration: none;
 
 }
@@ -81,7 +89,8 @@ footer a hover{
     grid-column: 2/4;
 }
 
-img{
+.images img{
+  margin-top: 15%;
   border-radius: 10px;
 }
 
