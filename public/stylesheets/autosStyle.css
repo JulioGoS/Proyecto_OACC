@@ -3,12 +3,14 @@ body{
 }
 h4{
   text-align: center;
-
+  color: white;
 }
 
 .card-body{
 
   border-radius: 10px;
+  background: #293462;
+  color: white;
 }
 
 .col-md-3{
